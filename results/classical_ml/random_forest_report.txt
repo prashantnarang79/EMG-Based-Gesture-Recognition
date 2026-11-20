@@ -1,0 +1,12 @@
+                  precision    recall  f1-score   support
+
+    Hand at rest     1.0000    1.0000    1.0000        81
+            Fist     0.9744    0.9744    0.9744        78
+   Wrist flexion     0.9747    0.9625    0.9686        80
+ Wrist extension     0.9524    1.0000    0.9756        80
+Radial deviation     1.0000    0.9500    0.9744        80
+ Ulnar deviation     0.9615    0.9740    0.9677        77
+
+        accuracy                         0.9769       476
+       macro avg     0.9772    0.9768    0.9768       476
+    weighted avg     0.9773    0.9769    0.9769       476

@@ -1,0 +1,2 @@
+threshold,validation_target_accuracy,validation_target_met,validation_coverage,validation_accepted_accuracy,test_coverage,test_accepted_accuracy,test_full_accuracy,test_macro_f1
+0.8259872794151306,0.98,True,0.5741758241758241,0.9808612440191388,0.6953781512605042,1.0,0.976890756302521,0.9767539614041042

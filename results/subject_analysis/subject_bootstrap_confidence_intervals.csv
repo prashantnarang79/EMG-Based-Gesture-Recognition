@@ -1,0 +1,3 @@
+﻿metric,observed,bootstrap_95ci_lower,bootstrap_95ci_upper,bootstrap_repetitions,subjects
+accuracy,0.976890756302521,0.9425,0.9964539007092199,10000,6
+macro_f1,0.9767539614041042,0.939329688214571,0.9966243862520457,10000,6

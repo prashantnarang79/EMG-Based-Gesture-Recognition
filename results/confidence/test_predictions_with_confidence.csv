@@ -1,0 +1,477 @@
+sample_index,true_label,true_gesture,predicted_label,predicted_gesture,max_softmax_score,correct,low_confidence_warning
+0,0,Hand at rest,0,Hand at rest,0.91963935,True,False
+1,0,Hand at rest,0,Hand at rest,0.9191666,True,False
+2,0,Hand at rest,0,Hand at rest,0.91870266,True,False
+3,0,Hand at rest,0,Hand at rest,0.91986555,True,False
+4,0,Hand at rest,0,Hand at rest,0.9193343,True,False
+5,1,Fist,5,Ulnar deviation,0.47904167,False,True
+6,1,Fist,5,Ulnar deviation,0.59416115,False,True
+7,1,Fist,5,Ulnar deviation,0.48507154,False,True
+8,2,Wrist flexion,2,Wrist flexion,0.6774345,True,True
+9,2,Wrist flexion,2,Wrist flexion,0.6352875,True,True
+10,2,Wrist flexion,2,Wrist flexion,0.52429634,True,True
+11,3,Wrist extension,3,Wrist extension,0.7137071,True,True
+12,3,Wrist extension,3,Wrist extension,0.6733159,True,True
+13,3,Wrist extension,3,Wrist extension,0.5863946,True,True
+14,4,Radial deviation,4,Radial deviation,0.504661,True,True
+15,4,Radial deviation,4,Radial deviation,0.50430125,True,True
+16,4,Radial deviation,4,Radial deviation,0.5331385,True,True
+17,5,Ulnar deviation,5,Ulnar deviation,0.77578706,True,True
+18,5,Ulnar deviation,5,Ulnar deviation,0.84049416,True,False
+19,0,Hand at rest,0,Hand at rest,0.92048335,True,False
+20,0,Hand at rest,0,Hand at rest,0.9202522,True,False
+21,0,Hand at rest,0,Hand at rest,0.92189455,True,False
+22,1,Fist,1,Fist,0.77025455,True,True
+23,1,Fist,1,Fist,0.8483038,True,False
+24,1,Fist,1,Fist,0.76644844,True,True
+25,2,Wrist flexion,2,Wrist flexion,0.5620521,True,True
+26,2,Wrist flexion,2,Wrist flexion,0.44560844,True,True
+27,3,Wrist extension,3,Wrist extension,0.67485225,True,True
+28,3,Wrist extension,3,Wrist extension,0.71933186,True,True
+29,4,Radial deviation,3,Wrist extension,0.6748363,False,True
+30,4,Radial deviation,3,Wrist extension,0.7052914,False,True
+31,5,Ulnar deviation,5,Ulnar deviation,0.5780725,True,True
+32,5,Ulnar deviation,5,Ulnar deviation,0.52683246,True,True
+33,0,Hand at rest,0,Hand at rest,0.92084867,True,False
+34,0,Hand at rest,0,Hand at rest,0.919313,True,False
+35,0,Hand at rest,0,Hand at rest,0.91986597,True,False
+36,1,Fist,1,Fist,0.88969946,True,False
+37,1,Fist,1,Fist,0.8830251,True,False
+38,2,Wrist flexion,2,Wrist flexion,0.691777,True,True
+39,2,Wrist flexion,2,Wrist flexion,0.7586811,True,True
+40,2,Wrist flexion,2,Wrist flexion,0.8149295,True,True
+41,3,Wrist extension,3,Wrist extension,0.80504775,True,True
+42,3,Wrist extension,3,Wrist extension,0.78372216,True,True
+43,3,Wrist extension,3,Wrist extension,0.6435686,True,True
+44,4,Radial deviation,4,Radial deviation,0.5291897,True,True
+45,4,Radial deviation,3,Wrist extension,0.50452447,False,True
+46,5,Ulnar deviation,5,Ulnar deviation,0.5706273,True,True
+47,5,Ulnar deviation,2,Wrist flexion,0.50286305,False,True
+48,0,Hand at rest,0,Hand at rest,0.92096806,True,False
+49,0,Hand at rest,0,Hand at rest,0.9209731,True,False
+50,0,Hand at rest,0,Hand at rest,0.91847193,True,False
+51,1,Fist,1,Fist,0.8383108,True,False
+52,1,Fist,1,Fist,0.7149693,True,True
+53,2,Wrist flexion,2,Wrist flexion,0.53814083,True,True
+54,2,Wrist flexion,2,Wrist flexion,0.7404208,True,True
+55,2,Wrist flexion,2,Wrist flexion,0.72883326,True,True
+56,3,Wrist extension,3,Wrist extension,0.91786826,True,False
+57,3,Wrist extension,3,Wrist extension,0.7965118,True,True
+58,3,Wrist extension,3,Wrist extension,0.727934,True,True
+59,4,Radial deviation,4,Radial deviation,0.6914509,True,True
+60,4,Radial deviation,4,Radial deviation,0.8119493,True,True
+61,5,Ulnar deviation,5,Ulnar deviation,0.60854834,True,True
+62,5,Ulnar deviation,5,Ulnar deviation,0.76149464,True,True
+63,5,Ulnar deviation,5,Ulnar deviation,0.7216432,True,True
+64,5,Ulnar deviation,5,Ulnar deviation,0.74563986,True,True
+65,0,Hand at rest,0,Hand at rest,0.92183065,True,False
+66,0,Hand at rest,0,Hand at rest,0.91935474,True,False
+67,0,Hand at rest,0,Hand at rest,0.92303413,True,False
+68,1,Fist,1,Fist,0.9401124,True,False
+69,1,Fist,1,Fist,0.9428131,True,False
+70,1,Fist,1,Fist,0.93135715,True,False
+71,1,Fist,1,Fist,0.93746233,True,False
+72,1,Fist,1,Fist,0.9320628,True,False
+73,2,Wrist flexion,2,Wrist flexion,0.828952,True,False
+74,2,Wrist flexion,2,Wrist flexion,0.89926124,True,False
+75,2,Wrist flexion,2,Wrist flexion,0.89670867,True,False
+76,2,Wrist flexion,2,Wrist flexion,0.92698604,True,False
+77,2,Wrist flexion,2,Wrist flexion,0.89791006,True,False
+78,3,Wrist extension,3,Wrist extension,0.96752644,True,False
+79,3,Wrist extension,3,Wrist extension,0.9420548,True,False
+80,3,Wrist extension,3,Wrist extension,0.97036797,True,False
+81,3,Wrist extension,3,Wrist extension,0.9439552,True,False
+82,4,Radial deviation,4,Radial deviation,0.7410744,True,True
+83,4,Radial deviation,4,Radial deviation,0.8229276,True,True
+84,4,Radial deviation,4,Radial deviation,0.6389712,True,True
+85,4,Radial deviation,4,Radial deviation,0.73366046,True,True
+86,4,Radial deviation,4,Radial deviation,0.7033859,True,True
+87,4,Radial deviation,4,Radial deviation,0.5419684,True,True
+88,5,Ulnar deviation,5,Ulnar deviation,0.97779787,True,False
+89,5,Ulnar deviation,5,Ulnar deviation,0.96077484,True,False
+90,5,Ulnar deviation,5,Ulnar deviation,0.9402982,True,False
+91,5,Ulnar deviation,5,Ulnar deviation,0.93569326,True,False
+92,0,Hand at rest,0,Hand at rest,0.93255955,True,False
+93,0,Hand at rest,0,Hand at rest,0.93150514,True,False
+94,0,Hand at rest,0,Hand at rest,0.93000174,True,False
+95,1,Fist,1,Fist,0.95740473,True,False
+96,1,Fist,1,Fist,0.9177934,True,False
+97,1,Fist,1,Fist,0.9315067,True,False
+98,1,Fist,1,Fist,0.8700625,True,False
+99,1,Fist,1,Fist,0.8901791,True,False
+100,2,Wrist flexion,2,Wrist flexion,0.79128426,True,True
+101,2,Wrist flexion,2,Wrist flexion,0.81379235,True,True
+102,2,Wrist flexion,2,Wrist flexion,0.8323738,True,False
+103,2,Wrist flexion,2,Wrist flexion,0.84935707,True,False
+104,3,Wrist extension,3,Wrist extension,0.824247,True,True
+105,3,Wrist extension,3,Wrist extension,0.787346,True,True
+106,3,Wrist extension,3,Wrist extension,0.5711251,True,True
+107,4,Radial deviation,4,Radial deviation,0.8004658,True,True
+108,4,Radial deviation,4,Radial deviation,0.7224812,True,True
+109,4,Radial deviation,4,Radial deviation,0.7134131,True,True
+110,5,Ulnar deviation,5,Ulnar deviation,0.9816212,True,False
+111,5,Ulnar deviation,5,Ulnar deviation,0.953093,True,False
+112,5,Ulnar deviation,5,Ulnar deviation,0.95952135,True,False
+113,0,Hand at rest,0,Hand at rest,0.9267599,True,False
+114,0,Hand at rest,0,Hand at rest,0.92524064,True,False
+115,1,Fist,1,Fist,0.97226703,True,False
+116,1,Fist,1,Fist,0.9703096,True,False
+117,1,Fist,1,Fist,0.95796406,True,False
+118,1,Fist,1,Fist,0.9560725,True,False
+119,1,Fist,1,Fist,0.9309906,True,False
+120,2,Wrist flexion,2,Wrist flexion,0.7770283,True,True
+121,2,Wrist flexion,2,Wrist flexion,0.84743243,True,False
+122,2,Wrist flexion,2,Wrist flexion,0.88118196,True,False
+123,2,Wrist flexion,2,Wrist flexion,0.86747855,True,False
+124,2,Wrist flexion,2,Wrist flexion,0.872376,True,False
+125,2,Wrist flexion,2,Wrist flexion,0.90051484,True,False
+126,3,Wrist extension,3,Wrist extension,0.8870598,True,False
+127,3,Wrist extension,3,Wrist extension,0.88055044,True,False
+128,3,Wrist extension,3,Wrist extension,0.89599097,True,False
+129,3,Wrist extension,3,Wrist extension,0.84401387,True,False
+130,3,Wrist extension,3,Wrist extension,0.9317408,True,False
+131,3,Wrist extension,3,Wrist extension,0.93136364,True,False
+132,3,Wrist extension,3,Wrist extension,0.91671914,True,False
+133,4,Radial deviation,4,Radial deviation,0.8659563,True,False
+134,4,Radial deviation,4,Radial deviation,0.8948625,True,False
+135,4,Radial deviation,4,Radial deviation,0.92145544,True,False
+136,4,Radial deviation,4,Radial deviation,0.9261607,True,False
+137,4,Radial deviation,4,Radial deviation,0.9152965,True,False
+138,4,Radial deviation,4,Radial deviation,0.89433146,True,False
+139,4,Radial deviation,4,Radial deviation,0.9024139,True,False
+140,5,Ulnar deviation,5,Ulnar deviation,0.95908594,True,False
+141,5,Ulnar deviation,5,Ulnar deviation,0.9608561,True,False
+142,5,Ulnar deviation,5,Ulnar deviation,0.9515404,True,False
+143,5,Ulnar deviation,5,Ulnar deviation,0.9353881,True,False
+144,5,Ulnar deviation,5,Ulnar deviation,0.9462636,True,False
+145,0,Hand at rest,0,Hand at rest,0.93042564,True,False
+146,0,Hand at rest,0,Hand at rest,0.92972374,True,False
+147,0,Hand at rest,0,Hand at rest,0.9241919,True,False
+148,0,Hand at rest,0,Hand at rest,0.9270106,True,False
+149,1,Fist,1,Fist,0.98257196,True,False
+150,1,Fist,1,Fist,0.97733384,True,False
+151,1,Fist,1,Fist,0.94889206,True,False
+152,1,Fist,1,Fist,0.9538951,True,False
+153,2,Wrist flexion,2,Wrist flexion,0.7606844,True,True
+154,2,Wrist flexion,2,Wrist flexion,0.809914,True,True
+155,2,Wrist flexion,2,Wrist flexion,0.8571204,True,False
+156,2,Wrist flexion,2,Wrist flexion,0.8237604,True,True
+157,2,Wrist flexion,2,Wrist flexion,0.9014267,True,False
+158,3,Wrist extension,3,Wrist extension,0.88098085,True,False
+159,3,Wrist extension,3,Wrist extension,0.8983867,True,False
+160,3,Wrist extension,3,Wrist extension,0.90711385,True,False
+161,3,Wrist extension,3,Wrist extension,0.82806534,True,False
+162,3,Wrist extension,3,Wrist extension,0.9255588,True,False
+163,4,Radial deviation,4,Radial deviation,0.9343276,True,False
+164,4,Radial deviation,4,Radial deviation,0.9007424,True,False
+165,4,Radial deviation,4,Radial deviation,0.8993724,True,False
+166,4,Radial deviation,4,Radial deviation,0.87032044,True,False
+167,5,Ulnar deviation,5,Ulnar deviation,0.9632789,True,False
+168,5,Ulnar deviation,5,Ulnar deviation,0.97567743,True,False
+169,5,Ulnar deviation,5,Ulnar deviation,0.9601204,True,False
+170,5,Ulnar deviation,5,Ulnar deviation,0.9689962,True,False
+171,5,Ulnar deviation,5,Ulnar deviation,0.9679437,True,False
+172,0,Hand at rest,0,Hand at rest,0.92264944,True,False
+173,0,Hand at rest,0,Hand at rest,0.92331475,True,False
+174,0,Hand at rest,0,Hand at rest,0.9230133,True,False
+175,1,Fist,1,Fist,0.97565436,True,False
+176,1,Fist,1,Fist,0.9683631,True,False
+177,2,Wrist flexion,2,Wrist flexion,0.6986172,True,True
+178,2,Wrist flexion,2,Wrist flexion,0.6662678,True,True
+179,2,Wrist flexion,2,Wrist flexion,0.5567619,True,True
+180,3,Wrist extension,3,Wrist extension,0.81121725,True,True
+181,3,Wrist extension,3,Wrist extension,0.85994,True,False
+182,3,Wrist extension,3,Wrist extension,0.8468421,True,False
+183,4,Radial deviation,4,Radial deviation,0.8985845,True,False
+184,4,Radial deviation,4,Radial deviation,0.89887035,True,False
+185,4,Radial deviation,4,Radial deviation,0.90028113,True,False
+186,5,Ulnar deviation,5,Ulnar deviation,0.9774629,True,False
+187,5,Ulnar deviation,5,Ulnar deviation,0.98359066,True,False
+188,5,Ulnar deviation,5,Ulnar deviation,0.9811291,True,False
+189,0,Hand at rest,0,Hand at rest,0.92802304,True,False
+190,0,Hand at rest,0,Hand at rest,0.9203079,True,False
+191,0,Hand at rest,0,Hand at rest,0.9093842,True,False
+192,0,Hand at rest,0,Hand at rest,0.91792184,True,False
+193,1,Fist,1,Fist,0.8979383,True,False
+194,1,Fist,1,Fist,0.9327917,True,False
+195,1,Fist,1,Fist,0.8962592,True,False
+196,2,Wrist flexion,2,Wrist flexion,0.9160822,True,False
+197,2,Wrist flexion,2,Wrist flexion,0.8689225,True,False
+198,2,Wrist flexion,2,Wrist flexion,0.90596604,True,False
+199,3,Wrist extension,3,Wrist extension,0.8928872,True,False
+200,3,Wrist extension,3,Wrist extension,0.85482055,True,False
+201,3,Wrist extension,3,Wrist extension,0.67432815,True,True
+202,4,Radial deviation,4,Radial deviation,0.8711143,True,False
+203,4,Radial deviation,4,Radial deviation,0.91392154,True,False
+204,4,Radial deviation,4,Radial deviation,0.9188494,True,False
+205,5,Ulnar deviation,5,Ulnar deviation,0.97055966,True,False
+206,5,Ulnar deviation,5,Ulnar deviation,0.966795,True,False
+207,5,Ulnar deviation,5,Ulnar deviation,0.9540247,True,False
+208,0,Hand at rest,0,Hand at rest,0.9218455,True,False
+209,0,Hand at rest,0,Hand at rest,0.9244477,True,False
+210,0,Hand at rest,0,Hand at rest,0.9224026,True,False
+211,0,Hand at rest,0,Hand at rest,0.9238959,True,False
+212,1,Fist,1,Fist,0.9647807,True,False
+213,1,Fist,1,Fist,0.9454625,True,False
+214,1,Fist,1,Fist,0.9506542,True,False
+215,2,Wrist flexion,2,Wrist flexion,0.5641693,True,True
+216,2,Wrist flexion,2,Wrist flexion,0.4907168,True,True
+217,2,Wrist flexion,2,Wrist flexion,0.403966,True,True
+218,3,Wrist extension,3,Wrist extension,0.82213,True,True
+219,3,Wrist extension,3,Wrist extension,0.92665386,True,False
+220,3,Wrist extension,3,Wrist extension,0.9179088,True,False
+221,4,Radial deviation,4,Radial deviation,0.9262238,True,False
+222,4,Radial deviation,4,Radial deviation,0.93251514,True,False
+223,4,Radial deviation,4,Radial deviation,0.9032886,True,False
+224,5,Ulnar deviation,5,Ulnar deviation,0.96210754,True,False
+225,5,Ulnar deviation,5,Ulnar deviation,0.96883047,True,False
+226,5,Ulnar deviation,5,Ulnar deviation,0.9548389,True,False
+227,5,Ulnar deviation,5,Ulnar deviation,0.97078246,True,False
+228,0,Hand at rest,0,Hand at rest,0.9222348,True,False
+229,0,Hand at rest,0,Hand at rest,0.9199535,True,False
+230,0,Hand at rest,0,Hand at rest,0.9215996,True,False
+231,0,Hand at rest,0,Hand at rest,0.9212998,True,False
+232,1,Fist,1,Fist,0.90259784,True,False
+233,1,Fist,1,Fist,0.87246376,True,False
+234,1,Fist,1,Fist,0.94121,True,False
+235,2,Wrist flexion,4,Radial deviation,0.43406987,False,True
+236,2,Wrist flexion,4,Radial deviation,0.54343545,False,True
+237,3,Wrist extension,3,Wrist extension,0.8850044,True,False
+238,3,Wrist extension,3,Wrist extension,0.886203,True,False
+239,3,Wrist extension,3,Wrist extension,0.86142683,True,False
+240,4,Radial deviation,4,Radial deviation,0.8997981,True,False
+241,4,Radial deviation,4,Radial deviation,0.8860729,True,False
+242,5,Ulnar deviation,5,Ulnar deviation,0.97444224,True,False
+243,5,Ulnar deviation,5,Ulnar deviation,0.9834622,True,False
+244,5,Ulnar deviation,5,Ulnar deviation,0.9831976,True,False
+245,0,Hand at rest,0,Hand at rest,0.9285316,True,False
+246,0,Hand at rest,0,Hand at rest,0.9236876,True,False
+247,0,Hand at rest,0,Hand at rest,0.92268485,True,False
+248,0,Hand at rest,0,Hand at rest,0.91773015,True,False
+249,1,Fist,1,Fist,0.8504896,True,False
+250,1,Fist,1,Fist,0.8737853,True,False
+251,1,Fist,1,Fist,0.87200516,True,False
+252,2,Wrist flexion,2,Wrist flexion,0.9518157,True,False
+253,2,Wrist flexion,2,Wrist flexion,0.9412163,True,False
+254,2,Wrist flexion,2,Wrist flexion,0.95297587,True,False
+255,2,Wrist flexion,2,Wrist flexion,0.95847964,True,False
+256,3,Wrist extension,3,Wrist extension,0.82362366,True,True
+257,3,Wrist extension,3,Wrist extension,0.75182045,True,True
+258,3,Wrist extension,3,Wrist extension,0.81970304,True,True
+259,3,Wrist extension,3,Wrist extension,0.78138274,True,True
+260,4,Radial deviation,4,Radial deviation,0.6225081,True,True
+261,4,Radial deviation,4,Radial deviation,0.6555764,True,True
+262,4,Radial deviation,4,Radial deviation,0.7295726,True,True
+263,5,Ulnar deviation,5,Ulnar deviation,0.92595357,True,False
+264,5,Ulnar deviation,5,Ulnar deviation,0.95570576,True,False
+265,5,Ulnar deviation,5,Ulnar deviation,0.9473684,True,False
+266,5,Ulnar deviation,5,Ulnar deviation,0.936729,True,False
+267,5,Ulnar deviation,5,Ulnar deviation,0.91224396,True,False
+268,5,Ulnar deviation,5,Ulnar deviation,0.9060072,True,False
+269,0,Hand at rest,0,Hand at rest,0.9165437,True,False
+270,0,Hand at rest,0,Hand at rest,0.91505784,True,False
+271,0,Hand at rest,0,Hand at rest,0.9232133,True,False
+272,0,Hand at rest,0,Hand at rest,0.9172433,True,False
+273,0,Hand at rest,0,Hand at rest,0.91845936,True,False
+274,1,Fist,1,Fist,0.84152085,True,False
+275,1,Fist,1,Fist,0.76159245,True,True
+276,1,Fist,1,Fist,0.77750623,True,True
+277,1,Fist,1,Fist,0.73776203,True,True
+278,1,Fist,1,Fist,0.8586269,True,False
+279,2,Wrist flexion,2,Wrist flexion,0.92361,True,False
+280,2,Wrist flexion,2,Wrist flexion,0.94902784,True,False
+281,2,Wrist flexion,2,Wrist flexion,0.9467642,True,False
+282,2,Wrist flexion,2,Wrist flexion,0.94498956,True,False
+283,3,Wrist extension,3,Wrist extension,0.9051211,True,False
+284,3,Wrist extension,3,Wrist extension,0.85883033,True,False
+285,3,Wrist extension,3,Wrist extension,0.69769347,True,True
+286,4,Radial deviation,4,Radial deviation,0.7321597,True,True
+287,4,Radial deviation,4,Radial deviation,0.7914728,True,True
+288,4,Radial deviation,4,Radial deviation,0.8761933,True,False
+289,4,Radial deviation,4,Radial deviation,0.8247832,True,True
+290,5,Ulnar deviation,5,Ulnar deviation,0.9587772,True,False
+291,5,Ulnar deviation,5,Ulnar deviation,0.9676427,True,False
+292,5,Ulnar deviation,5,Ulnar deviation,0.97018,True,False
+293,0,Hand at rest,0,Hand at rest,0.9029969,True,False
+294,0,Hand at rest,0,Hand at rest,0.91292435,True,False
+295,0,Hand at rest,0,Hand at rest,0.9168139,True,False
+296,0,Hand at rest,0,Hand at rest,0.9113275,True,False
+297,1,Fist,1,Fist,0.71229714,True,True
+298,1,Fist,1,Fist,0.80648214,True,True
+299,1,Fist,1,Fist,0.6140535,True,True
+300,1,Fist,1,Fist,0.7880523,True,True
+301,2,Wrist flexion,2,Wrist flexion,0.89317876,True,False
+302,2,Wrist flexion,2,Wrist flexion,0.9475743,True,False
+303,2,Wrist flexion,2,Wrist flexion,0.894618,True,False
+304,2,Wrist flexion,2,Wrist flexion,0.918726,True,False
+305,3,Wrist extension,3,Wrist extension,0.8997148,True,False
+306,3,Wrist extension,3,Wrist extension,0.8927239,True,False
+307,3,Wrist extension,3,Wrist extension,0.8158773,True,True
+308,3,Wrist extension,3,Wrist extension,0.66822374,True,True
+309,3,Wrist extension,3,Wrist extension,0.67756486,True,True
+310,4,Radial deviation,4,Radial deviation,0.89553213,True,False
+311,4,Radial deviation,4,Radial deviation,0.8374278,True,False
+312,4,Radial deviation,4,Radial deviation,0.7871498,True,True
+313,4,Radial deviation,4,Radial deviation,0.7113431,True,True
+314,4,Radial deviation,4,Radial deviation,0.87252253,True,False
+315,5,Ulnar deviation,5,Ulnar deviation,0.9184791,True,False
+316,5,Ulnar deviation,5,Ulnar deviation,0.9305963,True,False
+317,5,Ulnar deviation,5,Ulnar deviation,0.9041971,True,False
+318,5,Ulnar deviation,5,Ulnar deviation,0.9222761,True,False
+319,5,Ulnar deviation,5,Ulnar deviation,0.9562297,True,False
+320,0,Hand at rest,0,Hand at rest,0.92162645,True,False
+321,0,Hand at rest,0,Hand at rest,0.9267456,True,False
+322,0,Hand at rest,0,Hand at rest,0.92346597,True,False
+323,1,Fist,1,Fist,0.613274,True,True
+324,1,Fist,1,Fist,0.6562722,True,True
+325,1,Fist,1,Fist,0.77983147,True,True
+326,1,Fist,1,Fist,0.8154691,True,True
+327,2,Wrist flexion,2,Wrist flexion,0.769046,True,True
+328,2,Wrist flexion,2,Wrist flexion,0.83543235,True,False
+329,2,Wrist flexion,2,Wrist flexion,0.8016028,True,True
+330,2,Wrist flexion,2,Wrist flexion,0.8738071,True,False
+331,3,Wrist extension,3,Wrist extension,0.8549137,True,False
+332,3,Wrist extension,3,Wrist extension,0.9509453,True,False
+333,3,Wrist extension,3,Wrist extension,0.8895427,True,False
+334,3,Wrist extension,3,Wrist extension,0.9386926,True,False
+335,4,Radial deviation,4,Radial deviation,0.8662191,True,False
+336,4,Radial deviation,4,Radial deviation,0.853745,True,False
+337,4,Radial deviation,4,Radial deviation,0.88415265,True,False
+338,4,Radial deviation,4,Radial deviation,0.90467393,True,False
+339,4,Radial deviation,4,Radial deviation,0.87767327,True,False
+340,5,Ulnar deviation,5,Ulnar deviation,0.97162694,True,False
+341,5,Ulnar deviation,5,Ulnar deviation,0.9495954,True,False
+342,5,Ulnar deviation,5,Ulnar deviation,0.9623413,True,False
+343,0,Hand at rest,0,Hand at rest,0.9203028,True,False
+344,0,Hand at rest,0,Hand at rest,0.9196936,True,False
+345,0,Hand at rest,0,Hand at rest,0.91958815,True,False
+346,1,Fist,1,Fist,0.97487193,True,False
+347,1,Fist,1,Fist,0.9687799,True,False
+348,2,Wrist flexion,2,Wrist flexion,0.904204,True,False
+349,2,Wrist flexion,2,Wrist flexion,0.90285987,True,False
+350,3,Wrist extension,3,Wrist extension,0.75253534,True,True
+351,3,Wrist extension,3,Wrist extension,0.82253367,True,True
+352,3,Wrist extension,3,Wrist extension,0.807422,True,True
+353,4,Radial deviation,4,Radial deviation,0.67081684,True,True
+354,4,Radial deviation,4,Radial deviation,0.5591874,True,True
+355,4,Radial deviation,4,Radial deviation,0.6291109,True,True
+356,5,Ulnar deviation,5,Ulnar deviation,0.9820342,True,False
+357,5,Ulnar deviation,5,Ulnar deviation,0.9776793,True,False
+358,5,Ulnar deviation,5,Ulnar deviation,0.98067975,True,False
+359,0,Hand at rest,0,Hand at rest,0.9196557,True,False
+360,0,Hand at rest,0,Hand at rest,0.91868085,True,False
+361,1,Fist,1,Fist,0.9372453,True,False
+362,1,Fist,1,Fist,0.94774,True,False
+363,1,Fist,1,Fist,0.95295507,True,False
+364,2,Wrist flexion,2,Wrist flexion,0.65287095,True,True
+365,2,Wrist flexion,2,Wrist flexion,0.69045067,True,True
+366,3,Wrist extension,3,Wrist extension,0.72502816,True,True
+367,3,Wrist extension,3,Wrist extension,0.79415137,True,True
+368,3,Wrist extension,3,Wrist extension,0.7616135,True,True
+369,4,Radial deviation,4,Radial deviation,0.7971435,True,True
+370,4,Radial deviation,4,Radial deviation,0.7827578,True,True
+371,4,Radial deviation,4,Radial deviation,0.856788,True,False
+372,5,Ulnar deviation,5,Ulnar deviation,0.9687209,True,False
+373,0,Hand at rest,0,Hand at rest,0.9224681,True,False
+374,0,Hand at rest,0,Hand at rest,0.92017007,True,False
+375,0,Hand at rest,0,Hand at rest,0.9242711,True,False
+376,0,Hand at rest,0,Hand at rest,0.9217116,True,False
+377,1,Fist,1,Fist,0.96658117,True,False
+378,1,Fist,1,Fist,0.9781702,True,False
+379,1,Fist,1,Fist,0.9786137,True,False
+380,2,Wrist flexion,2,Wrist flexion,0.6952237,True,True
+381,2,Wrist flexion,2,Wrist flexion,0.7774118,True,True
+382,2,Wrist flexion,2,Wrist flexion,0.7823531,True,True
+383,2,Wrist flexion,2,Wrist flexion,0.7348322,True,True
+384,3,Wrist extension,3,Wrist extension,0.7858197,True,True
+385,3,Wrist extension,3,Wrist extension,0.70251244,True,True
+386,3,Wrist extension,3,Wrist extension,0.76156956,True,True
+387,3,Wrist extension,3,Wrist extension,0.7814643,True,True
+388,4,Radial deviation,4,Radial deviation,0.81145024,True,True
+389,4,Radial deviation,4,Radial deviation,0.9053791,True,False
+390,4,Radial deviation,4,Radial deviation,0.9271519,True,False
+391,4,Radial deviation,4,Radial deviation,0.9042683,True,False
+392,5,Ulnar deviation,5,Ulnar deviation,0.45478857,True,True
+393,5,Ulnar deviation,5,Ulnar deviation,0.62925816,True,True
+394,5,Ulnar deviation,5,Ulnar deviation,0.7171939,True,True
+395,5,Ulnar deviation,5,Ulnar deviation,0.79682314,True,True
+396,0,Hand at rest,0,Hand at rest,0.92501473,True,False
+397,0,Hand at rest,0,Hand at rest,0.9240576,True,False
+398,0,Hand at rest,0,Hand at rest,0.9259542,True,False
+399,0,Hand at rest,0,Hand at rest,0.92110294,True,False
+400,1,Fist,1,Fist,0.9153855,True,False
+401,1,Fist,1,Fist,0.95056295,True,False
+402,1,Fist,1,Fist,0.9264768,True,False
+403,2,Wrist flexion,2,Wrist flexion,0.69884926,True,True
+404,2,Wrist flexion,2,Wrist flexion,0.7305652,True,True
+405,2,Wrist flexion,2,Wrist flexion,0.7420486,True,True
+406,3,Wrist extension,3,Wrist extension,0.7542037,True,True
+407,3,Wrist extension,3,Wrist extension,0.49215662,True,True
+408,3,Wrist extension,3,Wrist extension,0.6341767,True,True
+409,4,Radial deviation,4,Radial deviation,0.9058647,True,False
+410,4,Radial deviation,4,Radial deviation,0.9075918,True,False
+411,4,Radial deviation,4,Radial deviation,0.88574374,True,False
+412,4,Radial deviation,4,Radial deviation,0.8884961,True,False
+413,5,Ulnar deviation,5,Ulnar deviation,0.82874066,True,False
+414,5,Ulnar deviation,5,Ulnar deviation,0.72242624,True,True
+415,0,Hand at rest,0,Hand at rest,0.9325635,True,False
+416,0,Hand at rest,0,Hand at rest,0.9282691,True,False
+417,1,Fist,1,Fist,0.94820493,True,False
+418,1,Fist,1,Fist,0.95669514,True,False
+419,1,Fist,1,Fist,0.9393185,True,False
+420,2,Wrist flexion,2,Wrist flexion,0.9153091,True,False
+421,2,Wrist flexion,2,Wrist flexion,0.93784887,True,False
+422,2,Wrist flexion,2,Wrist flexion,0.9424554,True,False
+423,3,Wrist extension,3,Wrist extension,0.9157506,True,False
+424,3,Wrist extension,3,Wrist extension,0.9526741,True,False
+425,3,Wrist extension,3,Wrist extension,0.93256474,True,False
+426,4,Radial deviation,4,Radial deviation,0.9385058,True,False
+427,4,Radial deviation,4,Radial deviation,0.93986046,True,False
+428,5,Ulnar deviation,5,Ulnar deviation,0.94207776,True,False
+429,5,Ulnar deviation,5,Ulnar deviation,0.8831171,True,False
+430,0,Hand at rest,0,Hand at rest,0.9288237,True,False
+431,0,Hand at rest,0,Hand at rest,0.93438315,True,False
+432,0,Hand at rest,0,Hand at rest,0.93300784,True,False
+433,0,Hand at rest,0,Hand at rest,0.93298626,True,False
+434,1,Fist,1,Fist,0.84187776,True,False
+435,1,Fist,1,Fist,0.8355135,True,False
+436,1,Fist,1,Fist,0.67394036,True,True
+437,2,Wrist flexion,2,Wrist flexion,0.9197553,True,False
+438,2,Wrist flexion,2,Wrist flexion,0.9056193,True,False
+439,2,Wrist flexion,2,Wrist flexion,0.91687804,True,False
+440,3,Wrist extension,3,Wrist extension,0.9736075,True,False
+441,3,Wrist extension,3,Wrist extension,0.9434357,True,False
+442,4,Radial deviation,4,Radial deviation,0.9588415,True,False
+443,4,Radial deviation,4,Radial deviation,0.9284234,True,False
+444,5,Ulnar deviation,5,Ulnar deviation,0.9594471,True,False
+445,5,Ulnar deviation,5,Ulnar deviation,0.9163112,True,False
+446,0,Hand at rest,0,Hand at rest,0.93251425,True,False
+447,0,Hand at rest,0,Hand at rest,0.93719965,True,False
+448,1,Fist,1,Fist,0.71076494,True,True
+449,1,Fist,1,Fist,0.67468303,True,True
+450,1,Fist,1,Fist,0.65528697,True,True
+451,2,Wrist flexion,2,Wrist flexion,0.9272758,True,False
+452,2,Wrist flexion,2,Wrist flexion,0.96485406,True,False
+453,2,Wrist flexion,2,Wrist flexion,0.93696475,True,False
+454,3,Wrist extension,3,Wrist extension,0.8827761,True,False
+455,3,Wrist extension,3,Wrist extension,0.9290492,True,False
+456,4,Radial deviation,4,Radial deviation,0.7178201,True,True
+457,4,Radial deviation,4,Radial deviation,0.8072909,True,True
+458,4,Radial deviation,4,Radial deviation,0.8897051,True,False
+459,5,Ulnar deviation,5,Ulnar deviation,0.49718678,True,True
+460,5,Ulnar deviation,2,Wrist flexion,0.40553418,False,True
+461,5,Ulnar deviation,2,Wrist flexion,0.46917275,False,True
+462,0,Hand at rest,0,Hand at rest,0.9328552,True,False
+463,0,Hand at rest,0,Hand at rest,0.9329871,True,False
+464,0,Hand at rest,0,Hand at rest,0.9294021,True,False
+465,1,Fist,1,Fist,0.97714627,True,False
+466,1,Fist,1,Fist,0.9784587,True,False
+467,2,Wrist flexion,2,Wrist flexion,0.8856836,True,False
+468,2,Wrist flexion,2,Wrist flexion,0.8846135,True,False
+469,3,Wrist extension,3,Wrist extension,0.9272578,True,False
+470,3,Wrist extension,3,Wrist extension,0.86472666,True,False
+471,4,Radial deviation,4,Radial deviation,0.91510236,True,False
+472,4,Radial deviation,4,Radial deviation,0.85854155,True,False
+473,5,Ulnar deviation,5,Ulnar deviation,0.9429442,True,False
+474,5,Ulnar deviation,5,Ulnar deviation,0.93963444,True,False
+475,5,Ulnar deviation,5,Ulnar deviation,0.953675,True,False
