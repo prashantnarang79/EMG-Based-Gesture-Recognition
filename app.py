@@ -1,6 +1,7 @@
 from pathlib import Path
 import time
 
+import json
 import h5py
 import matplotlib
 matplotlib.use("Agg")
@@ -51,20 +52,35 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
+    if not CONFIG.exists():
+        raise FileNotFoundError(f"Config missing: {CONFIG}")
+
     if not CHECKPOINT.exists():
         raise FileNotFoundError(f"Checkpoint missing: {CHECKPOINT}")
 
-    model = TinyMyo(**CONFIG)
+    # CONFIG is a path; read the JSON file to get a dictionary.
+    with CONFIG.open("r", encoding="utf-8") as f:
+        config = json.load(f)
 
-    state = load_file(str(CHECKPOINT), device="cpu")
-    state = {
-        key.removeprefix("model."): value
-        for key, value in state.items()
+    # _target_ describes the model class; it is not a constructor argument.
+    model_kwargs = {
+        key: value
+        for key, value in config.items()
+        if key != "_target_"
     }
 
-    model.load_state_dict(state, strict=True)
-    model.eval()
-    return model
+    # Pass the dictionary, not the CONFIG Path.
+    model = TinyMyo(**model_kwargs)
+
+    # Load pretrained checkpoint.
+    state = load_file(str(CHECKPOINT), device="cpu")
+
+    # Match the checkpoint keys to the model's state dictionary.
+    if any(key.startswith("model.") for key in state):
+        state = {
+            (key.removeprefix("model.") if key.startswith("model.") else key): value
+            for key, value in state.items()
+        }
 
 
 @st.cache_data
