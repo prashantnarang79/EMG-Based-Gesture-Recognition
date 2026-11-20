@@ -81,6 +81,9 @@ def load_model():
             (key.removeprefix("model.") if key.startswith("model.") else key): value
             for key, value in state.items()
         }
+    model.load_state_dict(state, strict=True)
+    model.eval()
+    return model
 
 
 @st.cache_data
